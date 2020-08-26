@@ -5,7 +5,8 @@ class TypeIntro() {
 
     fun adding() {
         expriancePoints = expriancePoints + 5
-        println(" { $expriancePoints + $playerName}")
+        println(expriancePoints)
+        println(playerName)
         if (hasSteed==false){
             hasSteed=true;
         }
